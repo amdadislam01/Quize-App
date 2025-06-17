@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             options[selectedOption].classList.add('incorrect');
             options[currentQuestion.correctAnswer].classList.add('correct');
-            feedbackText.textContent = `Incorrect. The correct answer is: ${currentQuestion.options[currentQuestion.correctAnswer]} (Score: ${score}/300)`;
+            feedbackText.textContent = `Incorrect. The correct answer is: ${currentQuestion.options[currentQuestion.correctAnswer]} (Score: ${score}/30)`;
             incorrectAnswers++;
         }
 
