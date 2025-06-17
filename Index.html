@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz User Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- User Registration Form -->
+    <div id="registration-container" class="container active">
+        <div class="form-header">
+            <h1 id="a1">Quiz Registration</h1>
+            <p id="a2">Please enter your details to start the quiz</p>
+        </div>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="name-error"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="10" max="100">
+            </div>
+            
+            <div class="form-group">
+                <label for="education">Education Level</label>
+                <select id="education" name="education">
+                    <option value="">Select</option>
+                    <option value="school">School</option>
+                    <option value="college">College</option>
+                    <option value="university">University</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions*</label>
+                <span class="error-message" id="terms-error"></span>
+            </div>
+            
+            <button type="submit" class="btn primary-btn">Start Quiz</button>
+        </form>
+    </div>
+    
+    <!-- Quiz Container (initially hidden) -->
+    <div id="quiz-container" class="container hidden">
+        <div class="quiz-header">
+            <div class="user-info">
+                <span id="display-name"></span>
+                <span id="display-email"></span>
+            </div>
+            <h1 id="quiz-title">Quiz Challenge</h1>
+            <div class="quiz-info">
+                <span id="question-counter">Question 1/10</span>
+                <span id="score">Score: 0</span>
+                <span id="timer">Time: 60s</span>
+            </div>
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+        </div>
+        
+        <div class="quiz-body">
+            <div id="question-container">
+                <h2 id="question">Loading question...</h2>
+                <div id="options-container" class="options-grid">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+            </div>
+            
+            <div id="feedback" class="feedback hidden">
+                <p id="feedback-text"></p>
+                <button id="next-button" class="btn">Next Question</button>
+            </div>
+        </div>
+        
+        <div class="quiz-footer">
+            <button id="hint-button" class="btn hint-btn" disabled>
+                <i class="fas fa-lightbulb"></i> Hints
+            </button>
+            <button id="submit-button" class="btn primary-btn" disabled>Submit</button>
+        </div>
+    </div>
+    
+    <!-- Results Modal -->
+    <div id="results-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Quiz Results</h2>
+            <div class="user-results-header">
+                <h3 id="results-user-name"></h3>
+                <p id="results-user-email"></p>
+            </div>
+            
+            <div id="results-content">
+                <div class="result-card">
+                    <div class="result-stat">
+                        <i class="fas fa-star"></i>
+                        <span id="final-score">0</span>/<span id="total-questions">0</span>
+                        <p>Final Score</p>
+                    </div>
+                </div>
+                
+                <div class="results-details">
+                    <div class="detail-card">
+                        <i class="fas fa-check-circle correct"></i>
+                        <span id="correct-answers">0</span>
+                        <p>Correct</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-times-circle incorrect"></i>
+                        <span id="incorrect-answers">0</span>
+                        <p>Incorrect</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-clock"></i>
+                        <span id="time-taken">0</span>s
+                        <p>Time Taken</p>
+                    </div>
+                </div>
+                
+                <p id="performance-message"></p>
+            </div>
+            
+            <div class="modal-actions">
+                <button id="restart-button" class="btn primary-btn">
+                    <i class="fas fa-redo"></i> Take Quiz Again
+                </button>
+                <button id="new-user-button" class="btn secondary-btn">
+                    <i class="fas fa-user"></i> New User
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
