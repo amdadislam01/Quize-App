@@ -7,11 +7,15 @@
 
 ## ✨ Features
 
-- 🎯 Multiple quiz categories
-- ⏱️ Timed questions
-- 📊 Instant scoring
-- 🌓 Dark/Light mode
-- 📱 Fully responsive
+- 🎯 Multiple Quiz Categories (General Knowledge, Science, History, Pop Culture)
+
+- ⏱️ Timed Questions (Configurable timer per question)
+
+- 📊 Instant Scoring & Feedback (Detailed results with correct answers)
+
+- 🌓 Dark/Light Mode Toggle (System preference detection + manual toggle)
+
+- 📱 Fully Responsive Design (Mobile-first approach)
 
 ## 🛠️ Tech Stack
 
