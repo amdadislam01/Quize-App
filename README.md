@@ -7,7 +7,7 @@
 
 ## ✨ Features
 
-- 🎯 Multiple Quiz Categories (General Knowledge, Science, History, Pop Culture)
+- 🎯 Multiple Quiz Categorie (General Knowledge, Science, History, Pop Culture)
 
 - ⏱️ Timed Questions (Configurable timer per question)
 
@@ -25,7 +25,7 @@
 
 ## 🖥️ Demo Preview
 
-###  Quiz Registration 
+###  Quiz Registration
 
   <img src="https://i.imgur.com/BfYvl8Y.png" alt="" width="1000"/>
 
