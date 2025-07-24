@@ -1,4 +1,4 @@
-# 🧠 Quiz App 202
+# 🧠 Quiz App 2025
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://quize-app-2025.netlify.app/)
 [![GitHub Repo](https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amdadislam01/quiz-app-2025)
