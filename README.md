@@ -27,7 +27,7 @@
 
 ###  Quiz Registration
 
-  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/regs?updatedAt=1754810966645="" width="1000"/>
+ <img src="https://ik.imagekit.io/yqnbhdlo4/Img/regs?updatedAt=1754810966645" alt="" width="1000"/>
 
 ### Quiz Challenge 
 
