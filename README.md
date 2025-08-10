@@ -31,4 +31,4 @@
 
 ### Quiz Challenge 
 
-  <img src="https://i.imgur.com/2IRm7ie.png" alt="" width="1000"/>
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/quiz%20?updatedAt=1754810966638" alt="" width="1000"/>
