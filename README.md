@@ -28,7 +28,7 @@ A modern, interactive quiz application featuring comprehensive knowledge assessm
 ## 🛠 Technical Implementation
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,netlify" alt="Technology Stack" width="400"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,netlify,github" alt="Technology Stack" width="400"/>
   <br>
   <em>Built with vanilla JavaScript for optimal performance</em>
 </p>
