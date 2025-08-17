@@ -1,34 +1,75 @@
-# 🧠 Quiz App 2025
+# 🧠 Interactive Quiz Platform (2025)
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://quize-app-2025.netlify.app/)
-[![GitHub Repo](https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amdadislam01/quiz-app-2025)
+[![Live Demo](https://img.shields.io/badge/View_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://quize-app-2025.netlify.app/)
+[![GitHub Repository](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amdadislam01/quiz-app-2025)
 
-📌 A simple quiz application where users can answer multiple-choice questions on various topics.
+A modern, interactive quiz application featuring comprehensive knowledge assessment across multiple domains with advanced user analytics.
 
-## ✨ Features
+## ✨ Core Features
 
-- 🎯 Multiple Quiz Categorie (General Knowledge, Science, History, Pop Culture)
+### 🎓 Knowledge Categories
+- **General Knowledge** - Current affairs and common knowledge
+- **Science & Technology** - STEM-focused questions
+- **Historical Events** - World history timeline
+- **Pop Culture** - Entertainment and media trivia
 
-- ⏱️ Timed Questions (Configurable timer per question)
+### ⚡ Interactive Elements
+- Configurable timed challenges (15-60 seconds per question)
+- Immediate answer validation with explanations
+- Progress tracking during quiz sessions
+- Score comparison with global averages
 
-- 📊 Instant Scoring & Feedback (Detailed results with correct answers)
+### 🎨 UI/UX Features
+- Adaptive dark/light mode (system-aware + manual toggle)
+- Mobile-optimized responsive layout
+- Accessible keyboard navigation
+- Animated transitions between questions
 
-- 🌓 Dark/Light Mode Toggle (System preference detection + manual toggle)
-
-- 📱 Fully Responsive Design (Mobile-first approach)
-
-## 🛠️ Tech Stack
+## 🛠 Technical Implementation
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,netlify" alt="Tech Stack" width="400"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,netlify" alt="Technology Stack" width="400"/>
+  <br>
+  <em>Built with vanilla JavaScript for optimal performance</em>
 </p>
 
-## 🖥️ Demo Preview
+## 🖥 Application Screenshots
 
-###  Quiz Registration
+### Registration Interface
+<div align="center">
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/regs?updatedAt=1754810966645" alt="User Registration Screen" width="800"/>
+  <br>
+  <em>Clean participant onboarding experience</em>
+</div>
 
- <img src="https://ik.imagekit.io/yqnbhdlo4/Img/regs?updatedAt=1754810966645" alt="" width="1000"/>
+### Quiz Challenge Interface
+<div align="center">
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/quiz%20?updatedAt=1754810966638" alt="Active Quiz Session" width="800"/>
+  <br>
+  <em>Interactive question presentation with timer</em>
+</div>
 
-### Quiz Challenge 
+## 📋 Usage Instructions
 
-  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/quiz%20?updatedAt=1754810966638" alt="" width="1000"/>
+1. **Select Category**: Choose your knowledge domain
+2. **Configure Settings**: Set timer preferences
+3. **Begin Challenge**: Answer questions within timeframe
+4. **Review Results**: Analyze performance metrics
+5. **Compare Scores**: View historical performance
+
+## ⚙️ Technical Highlights
+
+- Zero-dependency JavaScript implementation
+- Local storage for persistent user preferences
+- Efficient DOM manipulation for smooth animations
+- WCAG 2.1 compliant accessibility features
+- Progressive Web App capabilities
+
+## 📄 License
+
+MIT Licensed - Open for educational and commercial use
+
+---
+
+**Developed by Amdad Islam**  
+[![GitHub](https://img.shields.io/github/followers/amdadislam01?style=social)](https://github.com/amdadislam01)
