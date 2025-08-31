@@ -1,4 +1,4 @@
-# 🧠 Interactive Quiz Platform (2025)
+# 🧠 Interactive Quiz Platform (2025
 
 [![Live Demo](https://img.shields.io/badge/View_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://quize-app-2025.netlify.app/)
 [![GitHub Repository](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amdadislam01/quiz-app-2025)
